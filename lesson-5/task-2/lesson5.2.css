@@ -9,6 +9,6 @@
 a[target][href] {
   color: green;
 }
-[type="text"] {
+input[type="text"] {
   background-color: orange;
 }
