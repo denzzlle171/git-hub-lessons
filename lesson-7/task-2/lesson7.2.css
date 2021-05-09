@@ -11,10 +11,13 @@ ul > li:last-child span {
   color: white;
 }
 
-li:nth-child(even) {
+li:nth-child(even) span {
   margin-left: 16px;
 }
 
-.paragraphs > p:nth-child(odd) {
+.paragraphs > p:nth-child(1) {
+  background-color: gray;
+}
+.paragraphs > p:nth-last-child(2) {
   background-color: gray;
 }
