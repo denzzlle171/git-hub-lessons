@@ -2,7 +2,7 @@ input[type="checkbox"]:checked {
   margin-left: 50px;
 }
 
-label::first-line {
+label {
   text-transform: uppercase;
 }
 
