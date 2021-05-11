@@ -1,24 +1,26 @@
 * {
   box-sizing: border-box;
-  margin: 50px;
 }
 .rectangle {
   width: 100px;
   height: 50px;
   background-color: forestgreen;
   border-radius: 16px;
+  margin: 50px;
 }
 .ellipse {
   width: 100px;
   height: 50px;
   background-color: darkmagenta;
   border-radius: 50%;
+  margin: 50px;
 }
 .circle {
   width: 100px;
   height: 100px;
   background-color: aquamarine;
   border-radius: 50%;
+  margin: 50px;
 }
 .triangle {
   width: 100px;
@@ -26,4 +28,5 @@
   background-color: transparent;
   border: 50px solid transparent;
   border-top-color: brown;
+  margin: 50px;
 }
