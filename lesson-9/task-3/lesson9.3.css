@@ -14,6 +14,8 @@
 
 .sidebar {
   height: 500px;
+  float: right;
+  width: 20%;
   background-color: gray;
 }
 
