@@ -10,20 +10,26 @@
 }
 
 .navigation {
-  position: relative;
+  position: absolute;
   line-height: 50%;
   height: 40px;
+  /*background-color: green;*/
 }
 .nav-list {
+  height: 40px;
   list-style: none;
   position: relative;
+  /*background-color: red;*/
+  margin: 0px;
 }
 .nav-item {
+  height: 40px;
   position: relative;
-
+  line-height: 40px;
   color: white;
   float: left;
   margin-right: 16px;
+  /* background-color: blueviolet;*/
 }
 
 .content {
