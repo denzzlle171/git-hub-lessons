@@ -19,6 +19,7 @@
   display: flex;
   margin: 0;
   list-style-type: none;
+  padding-inline-start: 0px;
 }
 .navigation_item {
   margin-left: 16px;
@@ -55,4 +56,8 @@
   padding: 0;
   list-style-type: none;
   margin-left: 16px;
+  line-height: 40px;
+}
+.naw {
+  margin: 0px;
 }
