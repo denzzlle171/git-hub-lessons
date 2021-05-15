@@ -11,11 +11,12 @@ header {
   margin: 8px;
   padding: 16px;
   background-color: bisque;
-  width: 268px;
+  width: 300px;
   flex-grow: 1;
 }
 
 .articles-list {
   display: flex;
   flex-wrap: wrap;
+  align-items: stretch;
 }
