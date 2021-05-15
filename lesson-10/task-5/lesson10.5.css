@@ -9,6 +9,7 @@ header {
 
 .article {
   margin: 8px;
+  -webkit-margin-collapse: ;
   padding: 16px;
   background-color: bisque;
   width: 300px;
