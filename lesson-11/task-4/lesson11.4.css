@@ -1,0 +1,19 @@
+div {
+  display: block;
+  position: relative;
+  margin: 16px;
+  text-decoration: underline 1px dotted black;
+}
+.tooltip {
+  display: none;
+  position: absolute;
+  background-color: gray;
+  color: white;
+  padding: 8px;
+  border-radius: 4px;
+  bottom: -40px;
+  left: 0px;
+}
+div:hover .tooltip {
+  display: inline-block;
+}
