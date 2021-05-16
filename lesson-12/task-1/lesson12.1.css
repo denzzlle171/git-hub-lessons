@@ -21,3 +21,6 @@ p {
 .translate {
   color: gray;
 }
+a {
+  text-decoration: none;
+}
