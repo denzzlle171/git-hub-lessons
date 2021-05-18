@@ -1,0 +1,16 @@
+* {
+  box-sizing: border-box;
+}
+
+.gallery {
+  display: flex;
+}
+.image {
+  border: 1px dotted gray;
+  width: 200px;
+  height: 200px;
+  margin: 16px;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
