@@ -23,7 +23,6 @@
   text-transform: uppercase;
 }
 .form-input {
-  margin-bottom: 8px;
   height: 32px;
   width: 100%;
   border: 1px solid #808080;
@@ -46,4 +45,7 @@
 }
 input:invalid {
   border: 3px solid #ff0000;
+}
+.form-control {
+  margin-bottom: 8px;
 }
