@@ -8,6 +8,11 @@ table tr > td:nth-child(1),
 table tr > td:nth-child(10) {
   background-color: transparent !important;
   border: none;
+  text-align: center;
+  line-height: 50px;
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
 }
 
 td {
