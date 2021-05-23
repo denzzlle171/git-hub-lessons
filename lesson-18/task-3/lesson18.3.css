@@ -13,13 +13,17 @@
 }
 .battery-three-quarters {
   font-size: 32px;
+  line-height: 32px;
 }
 .battery-half {
   font-size: 64px;
+  line-height: 64px;
 }
 .battery-quarter {
   font-size: 128px;
+  line-height: 128px;
 }
 .battery-empty {
   font-size: 256px;
+  line-height: 256px;
 }
