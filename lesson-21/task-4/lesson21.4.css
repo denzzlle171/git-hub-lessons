@@ -39,11 +39,13 @@ html {
   width: 60%;
   padding: 0.5em;
   font-size: 1.25em;
-  line-height: 1.75em;
 }
 .news {
   width: 20%;
   padding: 0.5em;
+}
+.units-list {
+  line-height: 1.75em;
 }
 .css-units {
   color: #8b0000;
