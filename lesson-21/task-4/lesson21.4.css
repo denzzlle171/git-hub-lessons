@@ -30,7 +30,6 @@ html {
 .main {
   flex-grow: 1;
   display: flex;
-  line-height: 1.75em;
 }
 .navigation {
   padding: 0.5em;
@@ -40,6 +39,7 @@ html {
   width: 60%;
   padding: 0.5em;
   font-size: 1.25em;
+  line-height: 1.75em;
 }
 .news {
   width: 20%;
@@ -56,6 +56,7 @@ html {
   text-align: center;
   width: 100%;
   font-size: 5vw;
+  line-height: ;
 }
 .nav-list {
   list-style-type: none;
@@ -67,13 +68,13 @@ html {
   margin-bottom: 0.5em;
   height: 2em;
   padding: 0px 0px 0px 0.5em;
-  overflow: hidden;
-  white-space: nowrap;
-  text-overflow: ellipsis;
 }
 .nav-list-link {
   display: block;
   text-decoration: none;
   color: white;
   line-height: 2em;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
