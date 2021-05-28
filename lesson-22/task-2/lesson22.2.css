@@ -6,18 +6,21 @@
   background-color: #ff7f50;
   min-height: 200px;
   flex-grow: 1;
+  flex-basis: 100px;
 }
 .product-List {
   display: flex;
   background-color: #006400;
   min-height: 200px;
   flex-grow: 1;
+  flex-basis: 100px;
 }
 .news {
   display: flex;
   background-color: #0ff;
   min-height: 200px;
   flex-grow: 1;
+  flex-basis: 100px;
 }
 span {
   text-transform: lowercase;
