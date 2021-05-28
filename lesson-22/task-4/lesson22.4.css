@@ -6,6 +6,7 @@ html {
   font-size: 16px;
 }
 .header {
+  display: flex;
   height: 3em;
   padding: 0em 1em;
   background-color: #eee;
@@ -15,11 +16,9 @@ html {
   border: none;
   stroke: none;
   cursor: pointer;
-  line-height: 3em;
 }
 i {
   font-size: 2em;
-  line-height: 3em;
 }
 .nav-list {
   width: 20%;
