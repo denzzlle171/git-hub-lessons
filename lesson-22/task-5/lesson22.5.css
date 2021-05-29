@@ -118,4 +118,8 @@ picture {
   .news {
     width: 100%;
   }
+
+  picture {
+    box-shadow: none;
+  }
 }
