@@ -83,13 +83,13 @@ html {
 /*lesson 22.5*/
 
 img {
+  /*display: block;   -- if it's need */
   max-width: 100%;
   margin: 0px;
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
 }
 picture {
-  margin: auto;
   display: block;
-  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
   padding: 0px;
 }
 
@@ -117,9 +117,5 @@ picture {
   .section,
   .news {
     width: 100%;
-  }
-
-  picture {
-    box-shadow: none;
   }
 }
