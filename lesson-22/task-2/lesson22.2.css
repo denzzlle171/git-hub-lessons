@@ -19,7 +19,7 @@
   display: flex;
   background-color: #0ff;
   min-height: 200px;
-  flex-grow: 1;
+  /*flex-grow: 1;*/
   flex-basis: 0px;
 }
 span {
@@ -34,11 +34,22 @@ span {
 @media screen and (min-width: 600px) {
   .product {
     display: flex;
-    flex-grow: 2;
   }
 }
+
 @media screen and (min-width: 900px) {
   .content {
     display: flex;
+    flex-direction: row;
+  }
+  .product {
+    display: flex;
+    flex-grow: 2;
+    flex-basis: 300px;
+  }
+  .news {
+    display: flex;
+    flex-grow: 1;
+    flex-basis: 150px;
   }
 }
