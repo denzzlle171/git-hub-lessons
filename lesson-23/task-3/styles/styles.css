@@ -24,6 +24,7 @@
   line-height: 3em;
   padding: 0px 8px;
   cursor: pointer;
+  color: white;
 }
 .menu__item:hover {
   background-color: #9acd32;
