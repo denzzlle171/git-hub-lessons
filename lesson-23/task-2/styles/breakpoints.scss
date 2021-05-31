@@ -26,3 +26,8 @@ $unit: 100px;
     @content;
   }
 }
+@mixin orientation {
+  @media screen and (orientation: portrait) {
+    @content;
+  }
+}

@@ -10,6 +10,7 @@ body {
   justify-content: center;
   height: 100vh;
 }
+
 .square {
   width: $unit;
   height: $unit;
@@ -25,5 +26,11 @@ body {
   }
   @include for-extra-large-up {
     background-color: #c47;
+  }
+}
+.container {
+  display: flex;
+  @include orientation {
+    flex-direction: column;
   }
 }
