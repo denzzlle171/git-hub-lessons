@@ -1,0 +1,17 @@
+/*variable*/
+$sml: 600px;
+$big: 900px;
+$h: 200px;
+$Unit: 4px;
+
+/*mixin*/
+@mixin small {
+  @media screen and (min-width: $sml) {
+    @content;
+  }
+}
+@mixin large {
+  @media screen and (min-width: $big) {
+    @content;
+  }
+}
