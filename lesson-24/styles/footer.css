@@ -1,0 +1,114 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 16px;
+  font-family: "Work Sans", sans-serif;
+}
+/*footer*/
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  margin-top: auto;
+}
+/*footer-upperline*/
+.about-company {
+  margin-top: 44px;
+}
+
+.footer-navigation {
+  width: 1140px;
+  margin: 0 auto;
+  height: 338px;
+  display: flex;
+}
+
+.footer_deskription {
+  line-height: 26px;
+  font-size: 18px;
+  width: 360px;
+  margin-top: 26px;
+  color: #2b292d;
+  opacity: 0.6;
+}
+
+.download {
+  margin-top: 25px;
+}
+
+.download_item {
+  margin-right: 10px;
+}
+
+.additional-navigation {
+  margin-top: 60px;
+  margin-left: auto;
+  display: flex;
+}
+
+.additional-navigation-colum {
+  margin-right: 29px;
+}
+.nav-links {
+  width: 265px;
+}
+.nav-links__title {
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 28px;
+  color: #2b292d;
+  margin: 0;
+}
+
+.nav-links__title {
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 28px;
+  color: #2b292d;
+  margin: 0;
+}
+.nav-links__list {
+  font-size: 18px;
+  line-height: 30px;
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+  margin-top: 18px;
+  color: #2b292d;
+  opacity: 0.6;
+}
+
+/*footer-underline*/
+
+.footer_line {
+  border-top: 1px #2b292d solid;
+  width: 100%;
+  opacity: 0.1;
+  margin: 0px;
+}
+
+.footer-links {
+  display: flex;
+  align-items: center;
+  width: 1140px;
+  height: 50px;
+  margin: 0 auto;
+}
+.terms {
+  line-height: 50px;
+}
+.footer-navigation__item {
+  text-decoration: none;
+  color: #2b292d;
+  opacity: 0.6;
+  font-size: 14px;
+  margin-right: 22px;
+}
+
+.social-link {
+  margin-left: auto;
+}
+.social-link__item {
+  margin-left: 20px;
+}
