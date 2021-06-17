@@ -11,12 +11,10 @@ flex-direction: column;
             align-items: flex-start;
         }
 
-
         &__details{
             @include for-large-up {
                max-width: 555px; 
-            }
-            
+            } 
         }
 
         &__illustration{
@@ -31,7 +29,6 @@ flex-direction: column;
                 margin-right: 121px;
             }
         }
-
 
         &__title{
             font-weight: 700;
@@ -78,9 +75,6 @@ flex-direction: column;
             &::placeholder{
                 color: $color-dark;
             }
-
-
-
         }
 
         &__button{
@@ -97,7 +91,6 @@ flex-direction: column;
             }
         }
 
-
         &__terms{ 
         margin-top: 12px;
         margin-bottom: 0px;
@@ -106,15 +99,9 @@ flex-direction: column;
         color: $text-color-light-grey;
         }
 
-        
-
         &__link{
            color:$text-color-blue;
         }
+}
 
-        }
-
-        /*
-        }
-
-        .action-button{}*/
+    

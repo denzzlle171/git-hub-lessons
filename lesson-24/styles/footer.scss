@@ -15,7 +15,7 @@
      @include for-large-up { 
     display: block;
     }
-    }
+  }
 
      &_line {
       border-top: 1px #2b292d solid;
@@ -33,8 +33,7 @@
           @include for-large-down {
               display: none;
             }
-          }
-
+       }
 }
 
 .about-company {
@@ -91,7 +90,7 @@
       margin-top: 0;
       margin-right: 29px;
       }
-}
+    }
 }
 
 .nav-links {
@@ -120,8 +119,7 @@
         margin: 0px;
         margin-top: 18px;
         color: $text-color-light-grey;
-      
-}
+      }
 }
 
 .footer-links {
