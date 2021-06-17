@@ -699,10 +699,12 @@
   text-align: center;
   max-width: 200px;
   justify-content: center;
+  margin: auto;
 }
 @media screen and (min-width: 1400px) {
   .order__illustration {
     max-width: 269px;
+    margin: 0;
     margin-right: 121px;
   }
 }
@@ -712,6 +714,8 @@
   line-height: 40px;
   letter-spacing: -0.357143;
   margin-top: 40px;
+  margin-bottom: 0px;
+  text-align: center;
 }
 .order__text {
   font-size: 24px;
@@ -761,6 +765,7 @@
 }
 .order__terms {
   margin-top: 12px;
+  margin-bottom: 0px;
   font-size: 14px;
   line-height: 22px;
   color: #2b292d99;
@@ -865,14 +870,25 @@
 .audience__card {
   display: flex;
   flex-direction: column;
+  align-items: center;
   margin-top: 25px;
+}
+@media screen and (min-width: 1400px) {
+  .audience__card {
+    flex-direction: row;
+    margin-top: 111px;
+    justify-content: center;
+  }
+  .audience__card :first-child {
+    margin-left: 0;
+  }
 }
 .audience__card-item {
   display: flex;
   flex-direction: column;
   align-items: center;
   height: 300px;
-  max-width: 290px;
+  width: 290px;
   background-color: #ffffff;
   padding-top: 22px;
   border-radius: 8px;
@@ -880,6 +896,13 @@
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.00001) 100%), #FFFFFF;
   cursor: pointer;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+}
+@media screen and (min-width: 1400px) {
+  .audience__card-item {
+    margin-top: 0px;
+    width: 262px;
+    margin-left: 30px;
+  }
 }
 .audience__card-item:hover {
   background-color: #3141C5;

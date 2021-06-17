@@ -22,10 +22,12 @@ flex-direction: column;
         &__illustration{
             text-align:center;
             max-width: 200px;
-           justify-content: center;
+         justify-content: center;
+           margin: auto;
 
             @include for-large-up {
                 max-width: 269px;
+                margin: 0;
                 margin-right: 121px;
             }
         }
@@ -37,6 +39,8 @@ flex-direction: column;
             line-height: 40px;
             letter-spacing: -0.357143;
             margin-top: 40px;
+            margin-bottom: 0px;
+            text-align: center;
         }
 
 
@@ -96,6 +100,7 @@ flex-direction: column;
 
         &__terms{ 
         margin-top: 12px;
+        margin-bottom: 0px;
         font-size: 14px;
         line-height: 22px;
         color: $text-color-light-grey;
