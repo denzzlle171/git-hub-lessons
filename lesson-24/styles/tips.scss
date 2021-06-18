@@ -1,8 +1,8 @@
 .tips {
   margin-top: 8px;
-@include for-large-up {
-   display: none;
-}
+    @include for-large-up {
+     display: none;
+    }
 }
 
 .tips {
@@ -31,6 +31,7 @@
       margin: 0px;
       margin-top: 13px;
     }
+
     &__decoration {
       margin: 0;
       margin-bottom: 40px;
@@ -50,4 +51,5 @@
       text-align: center;
       color: $text-color-light-grey;
       max-width: 100%;
-    }}
+    }
+}

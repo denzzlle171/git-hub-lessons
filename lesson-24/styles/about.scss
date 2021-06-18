@@ -1,13 +1,13 @@
 .about {
   padding: 46px 15px;
   width: 100%;
-  background-color: #f4f5f7;
+  background-color: $light-grey;
 
-  @include for-large-up {
-    display: flex;
-    justify-content: space-between;
-    padding: 77px 130px 76px 130px;
-  }
+    @include for-large-up {
+      display: flex;
+      justify-content: space-between;
+      padding: 77px 130px 76px 130px;
+    }
 }
 
 .article {
@@ -18,9 +18,9 @@
   &:last-child {
     margin-top: 20px;
 
-    @include for-large-up {
-      margin-top: 0px;
-    }
+      @include for-large-up {
+        margin-top: 0px;
+      }
   }
 
   &__title {
