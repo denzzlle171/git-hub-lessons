@@ -4,13 +4,17 @@
     height: 1000px;
     padding: 115px 132px;
     background-color: $color-bg-black;
+    margin: auto;
 }
+
 .price-card{
     padding: 33px 0 40px 0; 
     width: 380px;
     height: 770px;
     background-color:$color-bg-gray;
     margin-left: 18px;
+    position: relative;
+    overflow: hidden;
 
      &:first-child{
        margin:0;
@@ -38,9 +42,9 @@
         text-align: center;
         margin:0;
         height: 105px;
-        margin-top: 33px; ;
-
+        margin-top: 33px;
      }
+
      &__description{
         font-weight: 300;
         font-size: 15px;
@@ -52,19 +56,17 @@
      &__list{
          list-style-type: none;
          padding: 0px;
-         margin:40px 0px 39px 0px
-
-
+         margin:40px 0px 39px 0px;
      }
 
      &__list-item{
+        font-size: 15px;
         font-weight: 300;
         height: 50px;
         line-height: 50px;
-        
-        padding-left: 59px;
-           
+        padding-left: 59px;   
      }
+
      &__order-button{
         display: block;
         width: 154px;
@@ -72,12 +74,15 @@
         border-radius: 20px;
         border: none;
         font-size: 14px;
+        font-weight: 300;
         text-align: center;
+        padding: 0;
         margin: 0 auto;
         color: $color-text;
+        cursor: pointer;
      }
 }
-
+/*distinction*/
 .price-card__tape{
     position: absolute;
     font-size: 14px;
@@ -88,8 +93,9 @@
     background-color: $color-bg-tape;
     text-align: center;
     text-transform: uppercase;
-
-    transform: rotate(-45deg);
+    top:30px;
+    right: -30px;
+    transform: rotate(45deg);
     }
 
 .bg-basic{
